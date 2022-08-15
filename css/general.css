@@ -1,0 +1,13 @@
+:root {
+  --color-main: rgb(84, 170, 67);
+  --color-background: aliceblue;
+  --transition-color: rgb(65, 129, 53);
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: sans-serif, arial;
+  margin: 0;
+  background-color: var(--color-background);
+}

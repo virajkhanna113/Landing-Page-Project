@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--color-main);
+}
+
+.logo {
+  width: 300px;
+}
+
+.link-container {
+  display: flex;
+  margin-right: 30px;
+}
+.link-container div {
+  padding-right: 50px;
+}
+
+.links {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
